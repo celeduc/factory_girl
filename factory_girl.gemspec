@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- Appraisals {spec,features,gemfiles}/*`.split("\n")
 
   s.require_paths = ['lib']
-  s.required_ruby_version = Gem::Requirement.new(">= 1.9.2")
+  s.required_ruby_version = Gem::Requirement.new(">= 1.9.3")
 
   s.authors = ["Josh Clayton", "Joe Ferris"]
   s.email   = ["jclayton@thoughtbot.com", "jferris@thoughtbot.com"]
